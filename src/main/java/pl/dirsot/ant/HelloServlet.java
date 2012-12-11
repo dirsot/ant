@@ -1,5 +1,5 @@
 
-package com.xeiam.hellowebapp;
+package pl.dirsot.ant;
 
 import java.io.IOException;
 
@@ -14,7 +14,7 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        request.setAttribute("hello_string", "Hello WebApp! 1234");
+        request.setAttribute("hello_string", "Hello WebApp! z ant i pom");
 
         request.getRequestDispatcher("/hello.jsp").forward(request, response);
 

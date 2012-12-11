@@ -7,7 +7,7 @@
 
 	<servlet>
 		<servlet-name>controlServlet</servlet-name>
-		<servlet-class>com.xeiam.hellowebapp.ControlServlet</servlet-class>
+		<servlet-class>pl.dirsot.ant.ControlServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>

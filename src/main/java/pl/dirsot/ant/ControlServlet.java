@@ -1,5 +1,5 @@
 
-package com.xeiam.hellowebapp;
+package pl.dirsot.ant;
 
 import java.io.IOException;
 
