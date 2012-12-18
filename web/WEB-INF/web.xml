@@ -7,7 +7,11 @@
 
 	<servlet>
 		<servlet-name>controlServlet</servlet-name>
+<<<<<<< HEAD
 		<servlet-class>com.xeiam.hellowebapp.ControlServlet</servlet-class>
+=======
+		<servlet-class>pl.dirsot.ant.ControlServlet</servlet-class>
+>>>>>>> 1d692aafb43e3cf739376ebc9f6516aa2c8a91c9
 	</servlet>
 
 	<servlet-mapping>
